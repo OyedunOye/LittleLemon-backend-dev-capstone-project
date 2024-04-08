@@ -11,3 +11,4 @@ nothing added to commit but untracked files present (use "git add" to track)
 # I just discovered that I can clone repositories historically pushed to my github account to my local machine. I don't have to keep those local repos
 # as I could just clone them back to my laptop whenever I want to continue working on them!
 Superuser: username = Shade, password = Shadybee
+user1: username = Loveth, password = MyP@ssword
