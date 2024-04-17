@@ -20,7 +20,7 @@ from rest_framework.routers import DefaultRouter
 from restaurant import views
 
 router = DefaultRouter()
-router.register(r'tables', views.BookingViewSet)
+router.register(r'tables', views.BookingViewSet, basename='tables')
 
 # Update URLConf by including URL patterns of restaurant app
 urlpatterns = [
