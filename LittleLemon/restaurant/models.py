@@ -6,10 +6,10 @@ class Booking(models.Model):
     name = models.CharField(max_length=255)
     no_of_guests = models.SmallIntegerField(default=1)
     bookingdate = models.DateTimeField()
-    
+
     def __str__(self):
         return self.name + '  ----  ' + str(self.bookingdate)
-    
+
 
 class Menu(models.Model):
     # id = models.IntegerField(PrimaryKey=True)
